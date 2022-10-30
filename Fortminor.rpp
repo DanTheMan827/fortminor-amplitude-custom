@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.59/win64" 1667068207
+<REAPER_PROJECT 0.1 "6.59/win64" 1667100363
   <NOTES 0 2
   >
   RIPPLE 0
@@ -16,9 +16,9 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 208.94731288361689
-  ZOOM 9.13579078940054 0 0
-  VZOOMEX 5 2350
+  CURSOR 459.52960845192302
+  ZOOM 6.49054715188758 0 0
+  VZOOMEX 5 1932
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -60,8 +60,8 @@
   GLOBAL_AUTO -1
   TEMPO 85 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 0 0
-  SELECTION2 0 0
+  SELECTION 119.29411764705883 119.29411764705883
+  SELECTION2 119.29411764705883 119.29411764705883
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -141,28 +141,6 @@
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
-    <ITEM
-      POSITION 2.85980513023139
-      SNAPOFFS 0
-      LENGTH 226.89855791926007
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.014118 0 1 0 0 0
-      FADEOUT 1 0.014118 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {9D3A81A5-18BB-4B63-81E8-C7BFBA94380B}
-      IID 3
-      NAME "RTN bass.flac"
-      VOLPAN 1 0 1 -1
-      SOFFS 1.45250090426986
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {E002C493-8BF4-44C5-AF32-1519F287FD14}
-      <SOURCE FLAC
-        FILE "Stems\RTN bass.flac"
-      >
-    >
   >
   <TRACK {4B7A7097-3C52-48CF-83FF-42CA2C323F19}
     NAME "RTN bass"
@@ -176,7 +154,7 @@
     ISBUS 2 -2
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -187,6 +165,28 @@
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
+    <ITEM
+      POSITION 2.85980513023139
+      SNAPOFFS 0
+      LENGTH 226.89855791926007
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.014118 0 1 0 0 0
+      FADEOUT 1 0.014118 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {9D3A81A5-18BB-4B63-81E8-C7BFBA94380B}
+      IID 3
+      NAME "RTN bass.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.45250090426986
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E002C493-8BF4-44C5-AF32-1519F287FD14}
+      <SOURCE FLAC
+        FILE "Stems\RTN bass.flac"
+      >
+    >
   >
   <TRACK {828B62FA-CEF7-4C59-AFCB-0CFE28D10C2B}
     NAME "T2 - Drums"
@@ -222,7 +222,7 @@
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
-    BUSCOMP 0 0 0 0 0
+    BUSCOMP 2 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
     SEL 0
     REC 0 0 1 0 0 0 0
@@ -232,6 +232,30 @@
     NCHAN 2
     FX 1
     TRACKID {B5D94BF5-1D21-401A-B611-8BDEA9591E28}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {43A764E5-9958-4ED3-BDD3-32AC6E73F440}
+    NAME "RTN big kick"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 2 -1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 1 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {43A764E5-9958-4ED3-BDD3-32AC6E73F440}
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
@@ -258,30 +282,6 @@
       >
     >
   >
-  <TRACK {43A764E5-9958-4ED3-BDD3-32AC6E73F440}
-    NAME "RTN big kick"
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 2 -1
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    SEL 0
-    REC 0 0 1 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {43A764E5-9958-4ED3-BDD3-32AC6E73F440}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
-  >
   <TRACK {8D6F1D4E-60C9-40EA-9B7F-67306C402161}
     NAME Snare
     PEAKCOL 16576
@@ -292,7 +292,7 @@
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
-    BUSCOMP 0 0 0 0 0
+    BUSCOMP 2 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
     SEL 0
     REC 0 0 1 0 0 0 0
@@ -302,6 +302,30 @@
     NCHAN 2
     FX 1
     TRACKID {8D6F1D4E-60C9-40EA-9B7F-67306C402161}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {AC777219-E36C-4076-93F8-ADCFE77FB998}
+    NAME "RTN snareL"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 1 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {AC777219-E36C-4076-93F8-ADCFE77FB998}
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
@@ -328,8 +352,8 @@
       >
     >
   >
-  <TRACK {AC777219-E36C-4076-93F8-ADCFE77FB998}
-    NAME "RTN snareL"
+  <TRACK {DE7B66ED-8CFD-4FE9-84A5-7CCAA478FC8C}
+    NAME "RTN snareR"
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
@@ -337,17 +361,17 @@
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
-    ISBUS 0 0
+    ISBUS 2 -2
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
     SEL 0
     REC 0 0 1 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
-    TRACKID {AC777219-E36C-4076-93F8-ADCFE77FB998}
+    TRACKID {DE7B66ED-8CFD-4FE9-84A5-7CCAA478FC8C}
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
@@ -373,30 +397,6 @@
         FILE "Stems\RTN snareR.flac"
       >
     >
-  >
-  <TRACK {DE7B66ED-8CFD-4FE9-84A5-7CCAA478FC8C}
-    NAME "RTN snareR"
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 2 -2
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    SEL 0
-    REC 0 0 1 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {DE7B66ED-8CFD-4FE9-84A5-7CCAA478FC8C}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
   >
   <TRACK {1568BF45-F2EA-43B1-B0AC-A5734CB014D5}
     NAME "T3 - Strings"
@@ -445,28 +445,6 @@
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
-    <ITEM
-      POSITION 2.85980513023139
-      SNAPOFFS 0
-      LENGTH 226.89855791926007
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.014118 0 1 0 0 0
-      FADEOUT 1 0.014118 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {447560DE-673A-4A84-8A76-87A01D375D82}
-      IID 14
-      NAME "RTN stringsL.flac"
-      VOLPAN 1 -1 1 -1
-      SOFFS 1.45250090426986
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {F77C7A04-E7F6-41E3-B3E2-49D6BA1EFFCE}
-      <SOURCE FLAC
-        FILE "Stems\RTN stringsL.flac"
-      >
-    >
   >
   <TRACK {67315AA8-C952-4755-8A24-E814AA472384}
     NAME "RTN stringsL"
@@ -501,16 +479,16 @@
       FADEOUT 1 0.014118 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {75EA2446-5BC7-45F9-88DA-88A0B9B78087}
-      IID 15
-      NAME "RTN stringsR.flac"
-      VOLPAN 1 1 1 -1
+      IGUID {447560DE-673A-4A84-8A76-87A01D375D82}
+      IID 14
+      NAME "RTN stringsL.flac"
+      VOLPAN 1 -1 1 -1
       SOFFS 1.45250090426986
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {59F2EA6B-BD0B-453E-A18D-9CEB3775B506}
+      GUID {F77C7A04-E7F6-41E3-B3E2-49D6BA1EFFCE}
       <SOURCE FLAC
-        FILE "Stems\RTN stringsR.flac"
+        FILE "Stems\RTN stringsL.flac"
       >
     >
   >
@@ -537,6 +515,28 @@
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
+    <ITEM
+      POSITION 2.85980513023139
+      SNAPOFFS 0
+      LENGTH 226.89855791926007
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.014118 0 1 0 0 0
+      FADEOUT 1 0.014118 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {75EA2446-5BC7-45F9-88DA-88A0B9B78087}
+      IID 15
+      NAME "RTN stringsR.flac"
+      VOLPAN 1 1 1 -1
+      SOFFS 1.45250090426986
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {59F2EA6B-BD0B-453E-A18D-9CEB3775B506}
+      <SOURCE FLAC
+        FILE "Stems\RTN stringsR.flac"
+      >
+    >
   >
   <TRACK {A9AFC3FA-440C-46A1-BC59-433397F24F2F}
     NAME "T4 - Vocals"
@@ -572,7 +572,7 @@
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
-    BUSCOMP 0 0 0 0 0
+    BUSCOMP 2 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
     SEL 0
     REC 0 0 1 0 0 0 0
@@ -582,6 +582,30 @@
     NCHAN 2
     FX 1
     TRACKID {F560BE58-C0AF-4467-B24B-14D627284EDD}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {7E3ACF28-5211-4254-AF65-FA29DCFFF0EF}
+    NAME "RTN CLEAN ACCAPELLAL"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 1 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {7E3ACF28-5211-4254-AF65-FA29DCFFF0EF}
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
@@ -608,8 +632,8 @@
       >
     >
   >
-  <TRACK {7E3ACF28-5211-4254-AF65-FA29DCFFF0EF}
-    NAME "RTN CLEAN ACCAPELLAL"
+  <TRACK {015764B8-C7F1-4392-8B84-55767C7102D0}
+    NAME "RTN CLEAN ACCAPELLAR"
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
@@ -617,17 +641,17 @@
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
-    ISBUS 0 0
+    ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
     SEL 0
     REC 0 0 1 0 0 0 0
     VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
-    TRACKID {7E3ACF28-5211-4254-AF65-FA29DCFFF0EF}
+    TRACKID {015764B8-C7F1-4392-8B84-55767C7102D0}
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
@@ -654,30 +678,6 @@
       >
     >
   >
-  <TRACK {015764B8-C7F1-4392-8B84-55767C7102D0}
-    NAME "RTN CLEAN ACCAPELLAR"
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 2 -1
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    SEL 0
-    REC 0 0 1 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {015764B8-C7F1-4392-8B84-55767C7102D0}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
-  >
   <TRACK {CDB91C07-ECB9-423D-8902-42FEC919426E}
     NAME "Dirty Acapella"
     PEAKCOL 16576
@@ -701,28 +701,6 @@
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
-    <ITEM
-      POSITION 2.85980513023139
-      SNAPOFFS 0
-      LENGTH 226.90499909573012
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.014118 0 1 0 0 0
-      FADEOUT 1 0.014118 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {791365EF-D197-40C8-B373-18BDAD360C16}
-      IID 9
-      NAME "RTN DIRTY ACCAPELLAL.flac"
-      VOLPAN 1 -1 1 -1
-      SOFFS 1.45250090426986
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {A0AACC2D-28CA-4592-92F1-8375B595CDD6}
-      <SOURCE FLAC
-        FILE "Stems\RTN DIRTY ACCAPELLAL.flac"
-      >
-    >
   >
   <TRACK {245D134A-F352-497A-B2F9-6EEA0808CFAC}
     NAME "RTN DIRTY ACCAPELLAL"
@@ -757,16 +735,16 @@
       FADEOUT 1 0.014118 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {28EA366C-4701-41B2-BBAE-FFF72771DF77}
-      IID 10
-      NAME "RTN DIRTY ACCAPELLAR.flac"
-      VOLPAN 1 1 1 -1
+      IGUID {791365EF-D197-40C8-B373-18BDAD360C16}
+      IID 9
+      NAME "RTN DIRTY ACCAPELLAL.flac"
+      VOLPAN 1 -1 1 -1
       SOFFS 1.45250090426986
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {DE8DC80D-9027-4FC8-8AC9-64B925507FF8}
+      GUID {A0AACC2D-28CA-4592-92F1-8375B595CDD6}
       <SOURCE FLAC
-        FILE "Stems\RTN DIRTY ACCAPELLAR.flac"
+        FILE "Stems\RTN DIRTY ACCAPELLAL.flac"
       >
     >
   >
@@ -793,6 +771,28 @@
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
+    <ITEM
+      POSITION 2.85980513023139
+      SNAPOFFS 0
+      LENGTH 226.90499909573012
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.014118 0 1 0 0 0
+      FADEOUT 1 0.014118 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {28EA366C-4701-41B2-BBAE-FFF72771DF77}
+      IID 10
+      NAME "RTN DIRTY ACCAPELLAR.flac"
+      VOLPAN 1 1 1 -1
+      SOFFS 1.45250090426986
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DE8DC80D-9027-4FC8-8AC9-64B925507FF8}
+      <SOURCE FLAC
+        FILE "Stems\RTN DIRTY ACCAPELLAR.flac"
+      >
+    >
   >
   <TRACK {2863104F-FED6-4E9F-96DD-DA6E51CA4534}
     NAME "T5 - Synth"
@@ -841,28 +841,6 @@
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
-    <ITEM
-      POSITION 2.85980513023139
-      SNAPOFFS 0
-      LENGTH 226.89855791926007
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.014118 0 1 0 0 0
-      FADEOUT 1 0.014118 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {4F5259F3-CCD7-4A15-8951-E52395659A5F}
-      IID 5
-      NAME "RTN chorus beepsL.flac"
-      VOLPAN 1 -1 1 -1
-      SOFFS 1.45250090426986
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {7A2685AB-5668-4610-83DC-31F331C614F1}
-      <SOURCE FLAC
-        FILE "Stems\RTN chorus beepsL.flac"
-      >
-    >
   >
   <TRACK {78349A6C-C6F7-4A7A-A161-00649A387C54}
     NAME "RTN chorus beepsL"
@@ -897,16 +875,16 @@
       FADEOUT 1 0.014118 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {C67C7EF2-C11B-4A46-8DF0-27F695FCD389}
-      IID 6
-      NAME "RTN chorus beepsR.flac"
-      VOLPAN 1 1 1 -1
+      IGUID {4F5259F3-CCD7-4A15-8951-E52395659A5F}
+      IID 5
+      NAME "RTN chorus beepsL.flac"
+      VOLPAN 1 -1 1 -1
       SOFFS 1.45250090426986
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {3297B209-32C9-4CC3-9622-CD39B177A14D}
+      GUID {7A2685AB-5668-4610-83DC-31F331C614F1}
       <SOURCE FLAC
-        FILE "Stems\RTN chorus beepsR.flac"
+        FILE "Stems\RTN chorus beepsL.flac"
       >
     >
   >
@@ -933,6 +911,28 @@
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
+    <ITEM
+      POSITION 2.85980513023139
+      SNAPOFFS 0
+      LENGTH 226.89855791926007
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.014118 0 1 0 0 0
+      FADEOUT 1 0.014118 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C67C7EF2-C11B-4A46-8DF0-27F695FCD389}
+      IID 6
+      NAME "RTN chorus beepsR.flac"
+      VOLPAN 1 1 1 -1
+      SOFFS 1.45250090426986
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3297B209-32C9-4CC3-9622-CD39B177A14D}
+      <SOURCE FLAC
+        FILE "Stems\RTN chorus beepsR.flac"
+      >
+    >
   >
   <TRACK {CD66D8B1-697B-4983-97C1-39C3D951E80C}
     NAME "T6 - FX"
@@ -954,6 +954,30 @@
     NCHAN 2
     FX 1
     TRACKID {CD66D8B1-697B-4983-97C1-39C3D951E80C}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {4075D0C9-7589-41B0-8BDA-9B9318B14528}
+    NAME "RTN hat"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {4075D0C9-7589-41B0-8BDA-9B9318B14528}
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
@@ -980,30 +1004,6 @@
       >
     >
   >
-  <TRACK {4075D0C9-7589-41B0-8BDA-9B9318B14528}
-    NAME "RTN hat"
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 0 0
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    SEL 0
-    REC 0 0 1 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {4075D0C9-7589-41B0-8BDA-9B9318B14528}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
-  >
   <TRACK {210325AB-5186-46D2-A1F1-6106C45BE707}
     NAME "Tamb and Blip"
     PEAKCOL 16576
@@ -1027,28 +1027,6 @@
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
-    <ITEM
-      POSITION 2.85980513023139
-      SNAPOFFS 0
-      LENGTH 226.89855791926007
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.014118 0 1 0 0 0
-      FADEOUT 1 0.014118 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {A8AD79DB-3980-480A-9605-3CB8E471D16F}
-      IID 16
-      NAME "RTN tamb and blipL.flac"
-      VOLPAN 1 -1 1 -1
-      SOFFS 1.45250090426986
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {46BF992B-B61F-4AD6-94ED-57A1C3C8ACEA}
-      <SOURCE FLAC
-        FILE "Stems\RTN tamb and blipL.flac"
-      >
-    >
   >
   <TRACK {B736468E-AD77-4767-93FC-B163C066D9BC}
     NAME "RTN tamb and blipL"
@@ -1083,16 +1061,16 @@
       FADEOUT 1 0.014118 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {FEF5A962-AD50-40A0-9B05-2864DB34E7F6}
-      IID 17
-      NAME "RTN tamb and blipR.flac"
-      VOLPAN 1 1 1 -1
+      IGUID {A8AD79DB-3980-480A-9605-3CB8E471D16F}
+      IID 16
+      NAME "RTN tamb and blipL.flac"
+      VOLPAN 1 -1 1 -1
       SOFFS 1.45250090426986
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {89D8826D-53ED-46C1-8B8D-FDA4E6D56A31}
+      GUID {46BF992B-B61F-4AD6-94ED-57A1C3C8ACEA}
       <SOURCE FLAC
-        FILE "Stems\RTN tamb and blipR.flac"
+        FILE "Stems\RTN tamb and blipL.flac"
       >
     >
   >
@@ -1119,6 +1097,28 @@
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
+    <ITEM
+      POSITION 2.85980513023139
+      SNAPOFFS 0
+      LENGTH 226.89855791926007
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.014118 0 1 0 0 0
+      FADEOUT 1 0.014118 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FEF5A962-AD50-40A0-9B05-2864DB34E7F6}
+      IID 17
+      NAME "RTN tamb and blipR.flac"
+      VOLPAN 1 1 1 -1
+      SOFFS 1.45250090426986
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {89D8826D-53ED-46C1-8B8D-FDA4E6D56A31}
+      <SOURCE FLAC
+        FILE "Stems\RTN tamb and blipR.flac"
+      >
+    >
   >
   <TRACK {56985A14-3B1F-41FB-9303-FA4894384A24}
     NAME BG_Click
@@ -1167,28 +1167,6 @@
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
-    <ITEM
-      POSITION 2.85980513023139
-      SNAPOFFS 0
-      LENGTH 226.89855791926007
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.014118 0 1 0 0 0
-      FADEOUT 1 0.014118 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {23132A18-0DB0-461C-A0FF-B38154A6BB6C}
-      IID 2
-      NAME "RTN bang.flac"
-      VOLPAN 1 0 1 -1
-      SOFFS 1.45250090426986
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {57BF204E-39F5-4A97-9D7D-D3FE425EB862}
-      <SOURCE FLAC
-        FILE "Stems\RTN bang.flac"
-      >
-    >
   >
   <TRACK {CE29DF58-B92C-4079-9F40-711B7CE5FD39}
     NAME "RTN bang"
@@ -1213,6 +1191,28 @@
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
+    <ITEM
+      POSITION 2.85980513023139
+      SNAPOFFS 0
+      LENGTH 226.89855791926007
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.014118 0 1 0 0 0
+      FADEOUT 1 0.014118 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {23132A18-0DB0-461C-A0FF-B38154A6BB6C}
+      IID 2
+      NAME "RTN bang.flac"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.45250090426986
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {57BF204E-39F5-4A97-9D7D-D3FE425EB862}
+      <SOURCE FLAC
+        FILE "Stems\RTN bang.flac"
+      >
+    >
   >
   <TRACK {FF5E81C8-B3A9-45AE-A227-4EC7EBBF7D90}
     NAME Wood
@@ -1234,6 +1234,30 @@
     NCHAN 2
     FX 1
     TRACKID {FF5E81C8-B3A9-45AE-A227-4EC7EBBF7D90}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {CEE51226-F46F-440D-83F4-36EE151F0B5E}
+    NAME "RTN wood"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 2 -2
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {CEE51226-F46F-440D-83F4-36EE151F0B5E}
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
@@ -1260,30 +1284,6 @@
       >
     >
   >
-  <TRACK {CEE51226-F46F-440D-83F4-36EE151F0B5E}
-    NAME "RTN wood"
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 2 -2
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    SEL 0
-    REC 0 0 1 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {CEE51226-F46F-440D-83F4-36EE151F0B5E}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
-  >
   <TRACK {2ED39100-74A4-4C47-AAA6-3FB71D601DAC}
     NAME "T1 CATCH:B:Bass"
     PEAKCOL 16576
@@ -1296,7 +1296,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -1338,7 +1338,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {7EB5FBCC-BF8A-43EC-90C0-6EA09611234B}
       IID 27
       NAME "T1 CATCH:B:Bass - rememberthename.mid"
@@ -1971,18 +1971,1166 @@
         <X 0 0 0 0 3 "T2 CATCH:D:Drums"
           /wNUMiBDQVRDSDpEOkRydW1z
         >
-        E 155520 b0 7b 00
+        E 9600 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 420 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 180 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 420 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 420 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 180 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 420 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 420 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 540 90 76 60
+        E 60 80 76 00
+        E 420 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 180 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 420 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 180 90 72 60
+        E 60 80 72 00
+        E 660 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 420 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 180 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 420 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 420 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 180 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 420 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 420 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 180 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 420 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 420 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 180 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 420 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 420 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 180 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 420 90 72 60
+        E 60 80 72 00
+        E 1860 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 420 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 180 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 420 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 1380 90 76 60
+        E 60 80 76 00
+        E 420 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 180 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 420 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 420 90 72 60
+        E 60 80 72 00
+        E 420 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 420 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 180 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 420 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 1380 90 76 60
+        E 60 80 76 00
+        E 420 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 180 90 72 60
+        E 60 80 72 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 60
+        E 60 80 76 00
+        E 300 90 76 60
+        E 60 80 76 00
+        E 60 90 72 60
+        E 60 80 72 00
+        E 300 90 72 60
+        E 60 80 72 00
+        E 60 90 76 48
+        E 60 80 76 00
+        E 420 90 72 48
+        E 60 80 72 00
+        E 300 90 72 48
+        E 60 80 72 00
+        E 0 90 76 48
+        E 60 80 76 00
+        E 360 90 76 48
+        E 60 80 76 00
+        E 60 90 72 48
+        E 60 80 72 00
+        E 300 90 72 48
+        E 60 80 72 00
+        E 60 90 76 48
+        E 60 80 76 00
+        E 60 90 72 48
+        E 60 80 72 00
+        E 60 90 72 48
+        E 60 80 72 00
+        E 60 90 72 48
+        E 60 80 72 00
+        E 420 90 76 48
+        E 60 80 76 00
+        E 60 90 76 48
+        E 60 80 76 00
+        E 300 90 76 48
+        E 60 80 76 00
+        E 60 90 72 48
+        E 60 80 72 00
+        E 300 90 72 48
+        E 60 80 72 00
+        E 60 90 76 48
+        E 60 80 76 00
+        E 420 90 72 48
+        E 60 80 72 00
+        E 300 90 72 48
+        E 60 80 72 00
+        E 60 90 76 48
+        E 60 80 76 00
+        E 300 90 76 48
+        E 60 80 76 00
+        E 60 90 72 48
+        E 60 80 72 00
+        E 300 90 72 48
+        E 60 80 72 00
+        E 60 90 76 48
+        E 60 80 76 00
+        E 60 90 72 48
+        E 60 80 72 00
+        E 180 90 72 48
+        E 60 80 72 00
+        E 60 90 72 48
+        E 60 80 72 00
+        E 300 90 72 48
+        E 60 80 72 00
+        E 60 90 76 48
+        E 60 80 76 00
+        E 300 90 76 48
+        E 60 80 76 00
+        E 60 90 72 48
+        E 60 80 72 00
+        E 300 90 72 48
+        E 60 80 72 00
+        E 60 90 76 48
+        E 60 80 76 00
+        E 420 90 72 48
+        E 60 80 72 00
+        E 300 90 72 48
+        E 60 80 72 00
+        E 60 90 76 48
+        E 60 80 76 00
+        E 300 90 76 48
+        E 60 80 76 00
+        E 60 90 72 48
+        E 60 80 72 00
+        E 300 90 72 48
+        E 60 80 72 00
+        E 60 90 76 48
+        E 60 80 76 00
+        E 60 90 76 48
+        E 60 80 76 00
+        E 60 90 76 48
+        E 60 80 76 00
+        E 60 90 76 48
+        E 60 80 76 00
+        E 60 90 72 48
+        E 60 80 72 00
+        E 420 90 76 48
+        E 60 80 76 00
+        E 300 90 76 48
+        E 60 80 76 00
+        E 540 90 76 48
+        E 60 80 76 00
+        E 900 90 76 48
+        E 60 80 76 00
+        E 300 90 76 48
+        E 60 80 76 00
+        E 540 90 76 48
+        E 60 80 76 00
+        E 420 90 72 48
+        E 60 80 72 00
+        E 300 90 72 48
+        E 60 80 72 00
+        E 60 90 76 48
+        E 60 80 76 00
+        E 300 90 76 48
+        E 60 80 76 00
+        E 540 90 76 48
+        E 60 80 76 00
+        E 420 90 72 48
+        E 60 80 72 00
+        E 300 90 72 48
+        E 60 80 72 00
+        E 60 90 76 48
+        E 60 80 76 00
+        E 300 90 76 48
+        E 60 80 76 00
+        E 420 90 72 48
+        E 60 80 72 00
+        E 60 90 76 48
+        E 60 80 76 00
+        E 60 90 72 48
+        E 60 80 72 00
+        E 60 90 72 48
+        E 60 80 72 00
+        E 60 90 72 48
+        E 60 80 72 00
+        E 60 90 72 48
+        E 60 80 72 00
+        E 300 90 72 48
+        E 60 80 72 00
+        E 60 90 76 48
+        E 60 80 76 00
+        e 300 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 420 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 300 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 180 90 72 48
+        e 60 80 72 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 300 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 420 90 72 48
+        e 60 80 72 00
+        e 1380 90 76 48
+        e 60 80 76 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 300 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 420 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 300 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 180 90 72 48
+        e 60 80 72 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 300 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 420 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 300 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 300 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 420 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 300 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 180 90 72 48
+        e 60 80 72 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 300 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 420 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 300 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 1380 90 76 48
+        e 60 80 76 00
+        e 420 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 300 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 180 90 72 48
+        e 60 80 72 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 300 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 420 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 300 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 300 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 420 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 300 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 180 90 72 48
+        e 60 80 72 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 300 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 420 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 300 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 300 90 72 48
+        e 60 80 72 00
+        e 60 90 76 48
+        e 60 80 76 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 60 90 72 48
+        e 60 80 72 00
+        e 60 90 72 48
+        e 60 80 72 00
+        E 60 b0 7b 00
         CCINTERP 32
         CHASE_CC_TAKEOFFS 1
         GUID {475D1D80-F417-4723-A408-CFEB138AEDE6}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 9
         VELLANE -1 9 0
-        CFGEDITVIEW 0 0.004398 0 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 146183.041912 0.315035 7 20 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 0
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 440 281 1289 675 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 440 281 1289 675 1 0 0 0 0 0 0 1 0 0.5 0 0 1 64
       >
     >
   >
