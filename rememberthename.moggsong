@@ -45,7 +45,7 @@
 (title_short "Remember The Name")
 (artist "Fort Minor")
 (artist_short "Fort Minor")
-(desc "10% luck, 20% skill, 15% concentrated power of will, 5% pleasure, 50% pain, and 100% reason to remember the name")
+(desc "10% luck, 20% skill, 15% concentrated power of will, 5% pleasure, 50% pain, and 100% reason to remember the name.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 85)
 (charter "DanTheMan827")
